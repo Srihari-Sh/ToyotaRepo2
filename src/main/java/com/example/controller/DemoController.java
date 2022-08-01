@@ -11,5 +11,9 @@ public class DemoController {
 	{
 		return "Hi";
 	}
-
+	@RequestMapping(value = "/Sh")
+	public String method1()
+	{
+		return "Hi Sh";
+	}
 }
