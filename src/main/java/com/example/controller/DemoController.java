@@ -10,6 +10,7 @@ public class DemoController {
 	public String method()
 	{
 		return "Hi";
+		system.out.println("Merge Check");
 	}
 
 }
