@@ -9,8 +9,9 @@ public class DemoController {
 	@RequestMapping(value = "/")
 	public String method()
 	{
+		
+		System.out.println("Merge Check");
 		return "Hi";
-		system.out.println("Merge Check");
 	}
 	@RequestMapping(value = "/Sh")
 	public String method1()
